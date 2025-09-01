@@ -388,16 +388,16 @@ footer a {
     header nav {
         display: inline-block;
         vertical-align: middle;
-        width: auto;
     }
 
     #logo_epicode_div {
-        width: 15%;
+        width: 16%;
+        margin-left: 3%;
     }
 
     #header_p_div {
         margin: 0;
-        width: 58%;
+        width: 50%;
         text-align: left;
     }
 
@@ -405,7 +405,7 @@ footer a {
         margin-left: 10px;
     }
     header nav {
-        width: 25%;
+        width: 30%;
     }
 
 
@@ -483,9 +483,9 @@ footer a {
     }
 
     aside div {
-        width: 33%;
+        width: 33.333333333333333333333333333333%;
+        margin-right: -5px;
         display: inline-block;
-        margin: auto;
     }
 
     aside h2 {
