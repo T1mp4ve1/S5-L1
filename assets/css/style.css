@@ -426,24 +426,29 @@ footer a {
         padding: 7px;
     }
 
+    #video_novita {
+        width: 100%;
+    }
+
     iframe {
         display: inline-block;
-        width: 48%;
-        margin: auto;
-        height: 250px;
-        padding: 0;
+        vertical-align: top;
+        width: 49%;
+        margin: 0;
+        height: 200px;
     }
 
     section {
         display: inline-block;
-        width: 48%;
-        margin: auto;
-        padding: 0;
+        vertical-align: top;
+        width: 49%;
+        margin: 0;
+        height: 200px;
     }
 
     section h2 {
         padding: 1px;
-        font-size: 1em;
+        font-size: 1.2em;
         background-color: rgb(150, 150, 150);
     }
 
