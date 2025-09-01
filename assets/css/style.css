@@ -262,7 +262,7 @@ footer a {
     }
 
     iframe {
-        max-height: 100px;
+        height: 100px;
     }
 
     section h2 {
@@ -333,7 +333,7 @@ footer a {
     }
 
     iframe {
-        max-height: 100px;
+        height: 100px;
     }
 
     section h2 {
@@ -365,7 +365,110 @@ footer a {
 /* LARGE */
 
 @media screen and (min-width: 992px) {
+
+    header {
+        padding: 0;
+    }
+
+    #logo_epicode {
+        margin: 0;
+        width: 80%;
+    }
+
+    header div,
+    header nav {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+    }
+
+    header div p {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        margin-right: 270px;
+    }
+
+    header nav ul {
+        display: inline-block;
+    }
+
+    header nav li {
+        display: inline-block;
+    }
+
+
+    body {
+        font-size: 15px;
+    }
+
     h1 {
-        color: red;
+        font-size: 2.8em;
+    }
+
+    .badge {
+        width: 5%;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    table {
+        font-size: 0.8em;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    th {
+        padding: 7px;
+    }
+
+    iframe {
+        display: inline-block;
+        width: 48%;
+        margin: auto;
+        height: 250px;
+        padding: 0;
+    }
+
+    section {
+        display: inline-block;
+        width: 48%;
+        margin: auto;
+        padding: 0;
+    }
+
+    section h2 {
+        padding: 1px;
+        font-size: 1em;
+        background-color: rgb(150, 150, 150);
+    }
+
+    section form fieldset input {
+        width: 70%;
+        padding: 10px;
+    }
+
+    section form fieldset button {
+        width: 18%;
+        padding: 12px;
+        font-size: 0.7em;
+    }
+
+    aside {
+        font-size: 0.9em;
+    }
+
+    aside div {
+        width: 33%;
+        display: inline-block;
+        margin: auto;
+    }
+
+    aside h2 {
+        font-size: 1.5em;
     }
 }
